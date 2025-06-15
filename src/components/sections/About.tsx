@@ -22,7 +22,7 @@ export const About: React.FC = () => {
             About Me
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            I'm an Intermediate level Full Stack Developer with a strong foundation in modern web technologies.
+            I'm Intermediate level Full Stack Developer with a strong foundation in modern web technologies.
             Currently pursuing my Bachelor's in Computer Science while gaining real-world experience through internships.
           </p>
         </motion.div>
