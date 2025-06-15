@@ -6,7 +6,7 @@ export const profileData = {
   phone: "+91 7505611192",
   location: "Greater Noida, India",
   bio: "Passionate Full Stack Developer with expertise in the MERN stack and backend development. Currently pursuing B.Tech in Computer Science with hands-on experience in building scalable web applications, RESTful APIs, and modern frontend interfaces. I love solving complex problems and creating efficient, user-friendly solutions.",
-  avatar: "/src/assets/profile.jpg",
+  avatar: "src/assets/profile.jpg",
   resume: "https://drive.google.com/file/d/1KHyrAoURefXTCEYsukrysh3a1-gWDB2N/view?usp=sharing",
   socialLinks: [
     {
