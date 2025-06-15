@@ -1,0 +1,63 @@
+{
+  "projects": [
+    {
+      "id": "restaurant-food-app",
+      "title": "Restaurant Food App",
+      "description": "Production-ready backend system for restaurant management with secure authentication and order handling.",
+      "longDescription": "Built a comprehensive restaurant management system using modern web technologies. The application features secure JWT-based authentication, role-based access control, and a complete REST API for managing menus, restaurants, carts, and orders. Implemented with MVC architecture for maintainability and deployed to production with cloud database integration.",
+      "technologies": ["Node.js", "Express.js", "MongoDB", "JWT", "Bcrypt", "Postman", "Render", "MongoDB Atlas"],
+      "imageUrl": "https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "githubUrl": "https://github.com/shivam/restaurant-app",
+      "liveUrl": "https://restaurant-app-demo.render.com",
+      "featured": true,
+      "category": "backend",
+      "status": "in-progress",
+      "startDate": "2025-05",
+      "endDate": null
+    },
+    {
+      "id": "social-media-analytics",
+      "title": "Social Media Analytics Dashboard",
+      "description": "Interactive dashboard for analyzing user engagement metrics with real-time data visualization.",
+      "longDescription": "Developed a comprehensive analytics dashboard that processes and visualizes social media engagement data. Features include interactive charts, customizable date ranges, real-time updates, and detailed reporting capabilities. Built with a focus on performance and user experience, handling large datasets efficiently.",
+      "technologies": ["React.js", "Chart.js", "Express.js", "MongoDB", "Node.js", "Tailwind CSS"],
+      "imageUrl": "https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "githubUrl": "https://github.com/shivam/analytics-dashboard",
+      "liveUrl": "https://analytics-dashboard-demo.netlify.app",
+      "featured": true,
+      "category": "fullstack",
+      "status": "completed",
+      "startDate": "2025-04",
+      "endDate": "2025-06"
+    },
+    {
+      "id": "ecommerce-platform",
+      "title": "E-commerce Platform",
+      "description": "Full-stack e-commerce solution with payment integration and admin dashboard.",
+      "longDescription": "Comprehensive e-commerce platform featuring user authentication, product catalog, shopping cart, payment processing, and administrative tools. Implemented with modern React patterns, responsive design, and secure backend APIs.",
+      "technologies": ["React.js", "Node.js", "MongoDB", "Stripe", "Redux", "Material-UI"],
+      "imageUrl": "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "githubUrl": "https://github.com/shivam/ecommerce-platform",
+      "featured": false,
+      "category": "fullstack",
+      "status": "completed",
+      "startDate": "2024-12",
+      "endDate": "2025-03"
+    },
+    {
+      "id": "task-management-app",
+      "title": "Task Management App",
+      "description": "Collaborative task management tool with real-time updates and team features.",
+      "longDescription": "Built a modern task management application with drag-and-drop functionality, real-time collaboration, team management, and progress tracking. Features include customizable workflows, deadline management, and comprehensive reporting.",
+      "technologies": ["React.js", "Socket.io", "Node.js", "PostgreSQL", "React DnD"],
+      "imageUrl": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "githubUrl": "https://github.com/shivam/task-manager",
+      "liveUrl": "https://task-manager-demo.vercel.app",
+      "featured": false,
+      "category": "fullstack",
+      "status": "completed",
+      "startDate": "2024-09",
+      "endDate": "2024-11"
+    }
+  ]
+}
