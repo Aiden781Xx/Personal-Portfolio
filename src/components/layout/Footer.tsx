@@ -13,7 +13,7 @@ export const Footer: React.FC = () => {
           
           {/* Brand */}
           <div className="space-y-4">
-            <h3 className="text-xl font-bold">SK Sharma</h3>
+            <h2 className="text-xl font-bold">Shivam Kumar Sharma</h2>
             <p className="text-gray-400 text-sm">
               Full Stack Developer passionate about creating amazing web experiences.
             </p>
@@ -79,7 +79,7 @@ export const Footer: React.FC = () => {
 
               {/* Instagram */}
               <motion.a
-                href="https://instagram.com/__bhardwaj75"
+                href="https://instagram.com/__bhardwaj750"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors duration-200"
