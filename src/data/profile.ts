@@ -1,4 +1,4 @@
-export const profileData = {
+ export const profileData = {
   name: "Shivam Kumar Sharma",
   title: "Full Stack Developer",
   tagline: "MERN Stack Developer | Backend Specialist | Building Scalable Web Solutions",
@@ -7,7 +7,7 @@ export const profileData = {
   location: "Greater Noida, India",
   bio: "Passionate Full Stack Developer with expertise in the MERN stack and backend development. Currently pursuing B.Tech in Computer Science with hands-on experience in building scalable web applications, RESTful APIs, and modern frontend interfaces. I love solving complex problems and creating efficient, user-friendly solutions.",
   avatar: "src/assets/profile.jpg",
-  resume: "https://drive.google.com/file/d/1KHyrAoURefXTCEYsukrysh3a1-gWDB2N/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1tE0aF0OVz5CXbPl4_zRyHSrVGjpfyKy2/view?usp=sharing",
   socialLinks: [
     {
       name: "GitHub",
@@ -16,7 +16,7 @@ export const profileData = {
     },
     {
       name: "LinkedIn",
-      url: "https://linkedin.com/in/shivam-sharma",
+      url: "http://www.linkedin.com/in/shivam-sharma-193226311",
       icon: "Linkedin"
     },
     {
@@ -36,8 +36,9 @@ export const education = [
     current: true
   },
   {
-    degree: "Bachelor of Science - PCM",
-    institution: "Bachelor Of Science",
+    institution: "Durga Prasad Baljeet Singh (PG) College",
+    degree: "Bachelor Of Science- PCM",
+    location: "Anupshahr",
     period: "2020 - 2023",
     current: false
   }
