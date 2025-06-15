@@ -1,8 +1,8 @@
- import React, { useRef } from 'react';
+import React, { useRef } from 'react';
 import { motion, useMotionValue, useTransform } from 'framer-motion';
 import { Download, Github, Linkedin, Mail, MapPin, Phone } from 'lucide-react';
 import { Button } from '../ui/Button';
-import { profileData } from '../../data/profile';
+import { profileData } from '../assets/profile.jpg'; // ✅ make sure this path is correct
 
 export const Hero: React.FC = () => {
   const cardRef = useRef<HTMLDivElement>(null);
@@ -88,7 +88,7 @@ export const Hero: React.FC = () => {
               </Button>
             </div>
 
-            {/* Socials */}
+            {/* Social Links */}
             <div className="flex gap-4 justify-center lg:justify-start">
               {profileData.socialLinks.map((link, index) => {
                 const Icon = link.icon === 'Github' ? Github : link.icon === 'Linkedin' ? Linkedin : Mail;
@@ -110,7 +110,7 @@ export const Hero: React.FC = () => {
             </div>
           </motion.div>
 
-          {/* Right: 3D Tilt Profile Image */}
+          {/* Right Profile Image */}
           <motion.div
             className="flex justify-center lg:justify-end"
             initial={{ opacity: 0, x: 50 }}
@@ -126,7 +126,7 @@ export const Hero: React.FC = () => {
               <motion.div
                 className="w-full h-full rounded-full overflow-hidden bg-gradient-to-br from-blue-400 to-purple-500 p-1 shadow-xl ring-2 ring-offset-4 ring-blue-400 dark:ring-purple-500"
                 style={{
-                  rotateX: [80,180],
+                  rotateX,
                   rotateY,
                   transformStyle: 'preserve-3d',
                 }}
@@ -152,6 +152,7 @@ export const Hero: React.FC = () => {
               />
             </div>
           </motion.div>
+
         </div>
       </div>
     </section>
