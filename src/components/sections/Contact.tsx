@@ -82,7 +82,7 @@ export const Contact: React.FC = () => {
     {
       icon: Instagram,
       label:'Instagram',
-      href:"https://instagram.com/__bhardwaj75",
+      href:"https://instagram.com/__bhardwaj750",
     },
   ];
 
