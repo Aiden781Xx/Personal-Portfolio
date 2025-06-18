@@ -1,8 +1,8 @@
 import React, { useRef } from 'react';
 import { motion, useMotionValue, useTransform } from 'framer-motion';
 import { Download, Github, Linkedin, Mail, MapPin, Phone } from 'lucide-react';
-import { Button } from '../ui/Button';
-import { profileData } from 'assets/profile.jpg'; // ✅ make sure this path is correct
+import Button  from '../ui/Button';
+import  profileData from 'assets/profile.jpg'; // ✅ make sure this path is correct
 
 export const Hero: React.FC = () => {
   const cardRef = useRef<HTMLDivElement>(null);
